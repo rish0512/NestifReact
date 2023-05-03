@@ -1,0 +1,21 @@
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.Navbar {
+  margin-top: 10px;
+  justify-content: space-between;
+}
+.Navbar-logo img {
+  width: 150px;
+}
+.menu-icons {
+  display: block;
+  cursor: pointer;
+}
+.menu-icons i {
+  font-size: 1.2rem;
+  color: white;
+  color: red;
+}

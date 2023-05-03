@@ -1,0 +1,25 @@
+.Social-icons {
+  gap: 8px;
+}
+.Social-links {
+  flex-direction: row;
+  border-radius: 50%;
+  font-size: 15px;
+  color: #f5f5f5;
+  background: #173966;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding: 2px;
+}
+.Social-links:hover {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color-dark);
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 770px) {
+  .Social-icons {
+    display: none;
+  }
+}

@@ -1,0 +1,6 @@
+.contents {
+  font-size: 20px;
+  font-family: "serif" !important;
+  color: var(--p-text-color);
+  margin: 20px;
+}

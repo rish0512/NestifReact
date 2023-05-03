@@ -1,0 +1,22 @@
+footer {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color-dark);
+  padding-block: 20px;
+}
+footer h5 {
+  align-items: center;
+  text-align: center;
+}
+.Footer-container {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 770px) {
+  footer h5 {
+    display: none;
+  }
+  .Footer-container {
+    flex-direction: column;
+  }
+}

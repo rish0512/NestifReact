@@ -1,0 +1,13 @@
+.mission {
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+h2 {
+  text-align: center;
+}
+@media screen and (max-width: 770px) {
+  .mission {
+    flex-direction: column-reverse;
+  }
+}

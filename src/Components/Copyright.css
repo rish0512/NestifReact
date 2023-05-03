@@ -1,0 +1,7 @@
+.copy {
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  color: var(--primary-text-color);
+  background: var(--accent-color-dark);
+}
